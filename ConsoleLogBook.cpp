@@ -18,7 +18,7 @@ void addLog(){
     time_t start_time = chrono::system_clock::to_time_t(start);
     cout << "This log was created at: " << put_time(localtime(&start_time), "%Y-%m-%d %H:%M") << endl;
 
-    ofstream logFile("logbook.txt", ios::app);
+    ofstream logFile("Mylogbook.txt", ios::app);
     if(logFile.is_open()){
         logFile << put_time(localtime(&start_time), "%Y-%m-%d %H:%M") << " - " << log << endl;
         logFile.close();
@@ -29,7 +29,7 @@ void addLog(){
 }
 
 void editLog(){
-    ifstream logFile("logbook.txt");
+    ifstream logFile("Mylogbook.txt");
     if (!logFile.is_open()) {
         cout << "Failed to open log file!" << endl;
         return;
@@ -46,7 +46,7 @@ void editLog(){
     cout << "Enter new log to replace the last log: ";
     getline(cin, newLog);
 
-    ofstream outFile("logbook.txt", ios::trunc);
+    ofstream outFile("Mylogbook.txt", ios::trunc);
     if (outFile.is_open()) {
         outFile << newLog << endl;  
         outFile.close();
@@ -57,7 +57,7 @@ void editLog(){
 }
 
 void viewLog(){
-    ifstream logFile("logbook.txt");
+    ifstream logFile("Mylogbook.txt");
     if (!logFile.is_open()) {
         cout << "Failed to open log file!" << endl;
         return;
@@ -73,7 +73,7 @@ void viewLog(){
 int main(){
     int choice;
     do {
-        cout << "*****\nLogbook Menu*****\n";
+        cout << "\n*****Logbook Menu*****\n";
         cout << "1. Add Log\n";
         cout << "2. Edit Log\n";
         cout << "3. View Logs\n";
@@ -98,7 +98,7 @@ int main(){
             default:
                 cout << "Invalid choice, please try again!" << endl;
         }
-    }
+    } while( choice != 4);
 
-    return 0;
-}
+}                                    
+
