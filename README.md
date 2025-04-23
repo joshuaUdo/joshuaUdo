@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @joshuaUdo
-- 👀 I’m interested in operating system dev, game dev and embedded system dev.
-- 🌱 I’m currently learning C++ & arduino.
+- 👀 I’m interested in operating system dev, game dev, embedded system dev and machine learning
+- 🌱 I’m currently learning C/C++ ~ Embedded C ~ ML 
 - 💞️ I’m looking to collaborate on any of my interest related projects
 - 📫 How to reach me joshuaudo457@gmail.com
 - 😄 Pronouns: None...
