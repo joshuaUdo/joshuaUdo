@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on any of my interest related projects
 - 📫 How to reach me joshuaudo457@gmail.com
 - 😄 Pronouns: None...
-- ⚡ Fun fact: Business owner @ 16.
+- ⚡ Fun fact: none
 
 <!---
 joshuaUdo/joshuaUdo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
